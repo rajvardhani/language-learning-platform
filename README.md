@@ -1,6 +1,6 @@
 # language-learning-platform
 
-Absolutely, let's create even more professional documentation for the language-learning platform repository:
+
 
 **## Language Learning Platform Documentation**
 
@@ -12,7 +12,6 @@ This document serves as a comprehensive guide for the language-learning platform
 * **Language Selection:** Ability to choose target languages from a curated list.
 * **Comprehensive Learning Resources:** Access to diverse learning materials, including vocabulary lists, grammar explanations, audio/video lessons, and interactive exercises.
 * **Progress Tracking:** Monitor learning progress through quizzes, statistics, and visual representations.
-* **Optional Community Features (Future Implementations):** Foster interaction and collaboration among learners through forums, chat functionalities, or other community-driven features (to be implemented in future versions).
 
 **2. Technologies**
 
@@ -21,14 +20,11 @@ The platform leverages a robust technology stack to deliver a seamless and scala
 * **Backend:**
     * Spring Boot: Provides a powerful foundation for building web applications.
     * Spring Data JPA: Simplifies database interactions and data persistence.
-    * Database: A suitable database solution is chosen (e.g., H2 for development, PostgreSQL or MySQL for production).
-    * Lombok (Optional): Reduces boilerplate code for cleaner development.
+    * Database: A suitable database solution is chosen (MySQL).
 * **Frontend:**
-    * (If using React) React: A popular JavaScript library for building user interfaces.
-    * (If using a different framework, specify the framework and its role)
-    * Axios (or similar library): Facilitates communication between the frontend and backend API.
-* **Other Dependencies:**
-    * Include any additional libraries or frameworks used in the project.
+    * React: A popular JavaScript library for building user interfaces.
+  
+
 
 **3. Setup**
 
@@ -81,7 +77,7 @@ To set up the development environment, ensure you have the following installed:
 
 **5. API Documentation**
 
-(Assuming a RESTful API)
+
 
 The backend API provides various endpoints to manage users, languages, learning resources, progress tracking, and potentially future community features. Substitute `<base_url>` with the actual URL of your backend server when making API calls. Refer to the codebase for specific details on endpoints (URIs, HTTP methods, request/response parameters).
 
